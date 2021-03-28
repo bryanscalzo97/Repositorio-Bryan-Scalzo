@@ -4,7 +4,7 @@
 
 /*----------------------------SPLASH---------------------------------*/
 .splash{
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
     height: 100vh;
@@ -50,10 +50,38 @@ margin: 20px;
         transform: translate(100%, 0);
     }
 }
+/*----------------------COLGANTES-----------*/
+#mitexto {
+    background-color: red;
+}
+.botoncomprar {
+    background-color: #F1C96D;
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+    padding: 0.5rem;
+
+}
+.nop {
+    padding: 0;
+    margin: 0;
+    
+}
+.titulo1 {
+    font-size: 1.5rem;
+}
+del,p {display:inline}
+del {color: grey;
+    padding: 0.5rem;
+}
+.img1 {
+    border-radius: 3px 0 0 3px;
+}
 /*---------------------------1ERA SECCION---------------------------*/
 
 #divbanner1 h1 {
     background-image: url(../../imagenes/banner1.png);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../../imagenes/banner1.png) ;
     background-repeat: no-repeat; background-position: center center;
     height: 35vh;
     text-align: center;
@@ -68,39 +96,58 @@ margin: 20px;
 }
 #banner2 {
     background-image: url(../../imagenes/banner2.png);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../../imagenes/banner2.png) ;
+
     background-repeat: no-repeat; background-position: center center;
     width: 100%;
     height: 25vh;
     color: white;
     text-align: center;
     border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0;
 }
 #banner3 {
     background-image: url(../../imagenes/banner3.png);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../../imagenes/banner3.png) ;
+
     background-repeat: no-repeat; background-position: center center;
     width: 100%;
     height: 25vh;
     color: white;
     text-align: center;
     border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0;
 }
 #banner4 {
     background-image: url(../../imagenes/banner4.png);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../../imagenes/banner4.png) ;
+
     background-repeat: no-repeat; background-position: center center;
     width: 100%;
     height: 25vh;
     color: white;
     text-align: center;
     border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0;
 }
 #banner5 {
-    background-image: url(../../imagenes/banner5.png);
+    
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../../imagenes/banner5.png) ;
+
     background-repeat: no-repeat; background-position: center center;
     width: 100%;
     height: 25vh;
     color: white;
     text-align: center;
     border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0;
+}
+#prod {
+    padding: 1em 0 1em 0;
 }
 
 #divbanner1 {
@@ -113,10 +160,17 @@ margin: 20px;
     margin-top: 2rem;
     background-color: #F1C96D;
     border-radius: 10px;
-    
+    color: black;
 }
 #dos {
     margin-bottom: 90px;
+}
+#uno h2, #uno a {
+    text-decoration: none !important;
+    color: white !important;
+}
+.space {
+    padding: 2%;
 }
 
 /*---------------------------NAV BAR---------------------------------*/
