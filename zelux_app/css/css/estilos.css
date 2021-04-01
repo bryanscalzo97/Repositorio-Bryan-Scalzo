@@ -88,12 +88,28 @@ del {color: grey;
     color: white;
     box-sizing: border-box;
     padding-top: 20vh;
-    border-radius: 0 0 10px 10px;    
+    border-radius: 0 0 10px 10px;
+      
 }
+
 #banner2 h2, #banner3 h2, #banner4 h2, #banner5 h2 {
     padding-top: 7rem;
     font-size: 24px;
 }
+.contb {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.colorb {
+    color: black !important;
+    text-decoration: none;
+}
+
+
+
+
+
+
 #banner2 {
     background-image: url(../../imagenes/banner2.png);
     background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../../imagenes/banner2.png) ;
@@ -167,7 +183,7 @@ del {color: grey;
 }
 #uno h2, #uno a {
     text-decoration: none !important;
-    color: white !important;
+    color: white ;
 }
 .space {
     padding: 2%;
